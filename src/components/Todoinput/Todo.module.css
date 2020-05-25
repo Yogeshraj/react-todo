@@ -1,0 +1,15 @@
+.todocontainer{
+    width: 100%;
+}
+.inputbox{width: 100%;
+float: left;
+padding: 10px;
+background: no-repeat;
+box-shadow: none;
+border: 0;
+color: #b4b4b4;
+font-size: 24px;
+box-sizing: border-box;position: relative;}
+/* .inputbox::after{position: absolute; content: '';border-bottom: 1px solid #fff;} */
+.inputbox:hover, .inputbox:focus{border: 0;border-bottom: 1px solid #fff;outline-offset: 0px; outline: 0; transition: all .2s;}
+.inputbox::placeholder{color: #b4b4b4; font-size: 24px;}
