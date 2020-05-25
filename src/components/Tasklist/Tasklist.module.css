@@ -5,7 +5,8 @@
   	border-color: transparent;
   	border-radius: 50%;}
 
-.tasks .delete:hover{    transform: translate(200px, 150px) rotate(20deg);
+.tasks .delete:hover{    
+    /* transform: translate(200px, 150px) rotate(20deg); */
 
     animation:  0.8s linear roundup ;
     animation-fill-mode: forwards;
